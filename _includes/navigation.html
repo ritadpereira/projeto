@@ -1,0 +1,11 @@
+<nav>
+    <ul>
+       {% for navigation in site.data.navigation.docs %}
+          <li>
+             <a href="{{ navigation.url }}" title="{{ navigation.title }}">
+              {{ navigation.title }}
+             </a>
+          </li> 
+       {% endfor %}
+    </ul>
+ </nav> 
