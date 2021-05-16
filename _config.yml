@@ -57,3 +57,11 @@ plugins:
 collections:
   contacts:
     output: true
+  selectedwork:
+    output: true
+  experience:
+    output: true
+  education:
+    output: true
+
+    <!--adicionar os permalinks-->
