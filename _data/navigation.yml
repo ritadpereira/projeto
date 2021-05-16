@@ -4,11 +4,11 @@ docs:
 - title: Home
   url: /home.html
 
-- title: About me
-  url: /aboutme.html
+- title: Work
+  url: /work.html
 
-- title: Projects
-  url: /projects.html
+- title: About
+  url: /about.html
 
 - title: Contacts
   url: /contacts.html
