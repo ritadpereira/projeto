@@ -43,7 +43,81 @@ category: UX & UI Design
 
 <p>Learn more on my <a href="https://www.behance.net/gallery/111862181/New-social-features-on-Spotify-Concept" target="_blank" title="My project on behance">behance</a></p>
 
-And the results:
+<p>And the results:</p>
 
+<article>
+    <h2>Send songs to friends</h2>
+    <figure>
+        <img src="assets/img/sendsongs.png" alt="Send songs to friends on Spotify">
+        <figcaption>
+            <strong>Why?</strong>
+            <p>60% wants to recommend and get recommendations from friends directly on Spotify</p>
+        </figcaption>
+    </figure>
+</article>
 
-<!--por imagens com descrição-->
+<article>
+    <h2>Two new playlists</h2>
+    <figure>
+        <img src="assets/img/newplaylists.png" alt="Two new automatic playlists">
+        <figcaption>
+            <strong>Why?</strong>
+            <p>56% wants to have an auto-generated playlist with all of the recommendations</p>
+        </figcaption>
+    </figure>
+</article>
+
+<article>
+    <h2>Listened by</h2>
+    <figure>
+        <img src="assets/img/listenedby.png" alt="Listened by">
+        <figcaption>
+            <strong>Why?</strong>
+            <p>41% wants to see on the content’s menu which of your friends follows that segment</p>
+        </figcaption>
+    </figure>
+</article>
+
+<article>
+    <h2>Favorite Artists</h2>
+    <figure>
+        <img src="assets/img/favorites.png" alt="Favorite Artists">
+        <figcaption>
+            <strong>Why?</strong>
+            <p>"Instead of the Recently Played Artists, I’d like to be able to share my favorites!"</p>
+        </figcaption>
+    </figure>
+</article>
+
+<article>
+    <h2>Followers</h2>
+    <figure>
+        <img src="assets/img/followers.png" alt="Followers">
+        <figcaption>
+            <strong>Why?</strong>
+            <p>"I love to know who follows my playlists, not being able to see that is bad."</p>
+        </figcaption>
+    </figure>
+</article>
+
+<article>
+    <h2>Friend Activity</h2>
+    <figure>
+        <img src="assets/img/friends.png" alt="Friend Activity on mobile">
+        <figcaption>
+            <strong>Why?</strong>
+            <p>"I only use the mobile app so there’s nothing there to see more about my friends’ activity."</p>
+        </figcaption>
+    </figure>
+</article>
+
+<article>
+    <h2>Privacy Settings</h2>
+    <figure>
+        <img src="assets/img/privacy.png" alt="Privacy Settings">
+        <figcaption>
+            <strong>Why?</strong>
+            <p>"I don’t want Spotify to become a social network. It’s just for listening to music."</p>
+        </figcaption>
+    </figure>
+</article>
