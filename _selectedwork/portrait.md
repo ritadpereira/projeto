@@ -1,8 +1,8 @@
 ---
 title: Portrait
 category: Digital Illustration
-url: https://www.instagram.com/p/B7bjUChHxmu/
+link: portraitpage.html
 link-title: Portrait
-image-src: 
-image-alt:
+image-src: assets/img/portrait.png
+image-alt: Illustrated portrait
 ---

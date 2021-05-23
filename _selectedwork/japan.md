@@ -1,8 +1,8 @@
 ---
 title: Japanese building
 category: Digital Illustration
-url: https://www.instagram.com/p/CI1jwncHT3z/
+link: japanesepage.html
 link-title: Japanese building
-image-src: 
-image-alt:
+image-src: assets/img/japanese.png
+image-alt: Japanese building
 ---
