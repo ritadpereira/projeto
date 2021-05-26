@@ -14,11 +14,10 @@ title: Selected Work
         <li>
             <a href= "{{ project.link }}" target="_blank" title="{{ project.title }}"> 
             {{ project.title }}
-            </a>
             <figure>
                 <img src="{{ project.image-src }}" alt="{{ project.image-alt }}">
-            </figure> 
-            <!-- queria pôr a figure como link também... como ponho?-->   
+            </figure>
+            </a>
         </li>
         {% endif %}
     {% endfor %}
@@ -31,10 +30,12 @@ title: Selected Work
         {% if project.category == "Digital Illustration" %}
         <hr>
         <li>
-            <a href= "{{ project.link}}" target="_blank" title="{{ project.title }}"> {{ project.title }}</a>
+            <a href= "{{ project.link}}" target="_blank" title="{{ project.title }}"> 
+            {{ project.title }}
             <figure>
                 <img src="{{ project.image-src }}" alt="{{ project.image-alt }}">
-            </figure> 
+            </figure>
+            </a>
         </li>
         {% endif %}
     {% endfor %}
