@@ -1,0 +1,40 @@
+@import "colors";
+@import "typography";
+
+body {
+    @include font;
+    background-color: $background;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 24px 24px;
+    a:link,
+    a:visited {
+        text-decoration: none;
+        color: $primary;
+    } 
+    a:hover {
+        color: $tertiary;
+    }
+    div {
+        @include p-smoll-medium;
+        display: flex;
+        justify-content: space-between;
+    }
+    nav {
+        ul {
+            list-style: none;
+            padding-left: 0px;
+            li.active a { //doesn't work :C
+                color: $active;
+                cursor: default;
+            }
+    
+        }
+    }  
+    
+    
+   
+}
