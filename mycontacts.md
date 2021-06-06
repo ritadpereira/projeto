@@ -1,5 +1,5 @@
 ---
-layout: contacts
+layout: mycontacts
 ---
 
 <h1>Contacts</h1>

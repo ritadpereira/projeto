@@ -1,40 +1,104 @@
 @import "colors";
 @import "typography";
+$fbg-mobile: "( min-width: 320px )";
+$fbg-desktop: "( min-width: 1000px )";
+// BRO DONT FORGET TO CHANGE THIS TO MOBILE
+// look at mobile, its broken
+// mete os tamanhos de mobile e depois adicionar o que esta feito dentro de queries de desktop
+// LOVE YOU
 
 body {
-    @include font;
+    @include font();
     background-color: $background;
     margin: 0;
     padding: 0;
+
+    main {
+        @include heading3();
+        h1 {
+            margin-left: 40%;
+            margin-top: 0;
+        }
+        p {
+            @include p-medium();
+            float: right;
+            margin-right: 10%;
+        }
+        figure img {
+            object-fit: cover;
+            width: 440px;
+            height: 500px;
+            margin-left: 10%;
+        }
+    }
 }
 
 header {
     padding: 24px 24px;
-    a:link,
-    a:visited {
+    @include p-smoll-medium();
+    @media #{ $fbg-desktop } {
+        @include p-medium();
+    }
+    a {
         text-decoration: none;
         color: $primary;
-    } 
+    }
     a:hover {
         color: $tertiary;
     }
     div {
-        @include p-smoll-medium;
         display: flex;
         justify-content: space-between;
+        width: 100%;
+        .name {
+            margin-top: 1.5rem;
+        }
+        figure,
+        a {
+            margin: 0.5rem 0 0 0;
+        }
     }
     nav {
+        position: fixed;
+        top: 30rem;
         ul {
             list-style: none;
             padding-left: 0px;
-            li.active a { //doesn't work :C
+            li.active a {
                 color: $active;
                 cursor: default;
+                pointer-events: none;
             }
-    
         }
-    }  
-    
-    
-   
+    }
+}
+
+footer {
+    padding-left: 24px;
+    @include p-medium();
+    color: $primary;
+    ul {
+        float: left;
+        padding-left: 0px;
+        list-style: none;
+        margin-bottom: 1%;
+        margin-top: 0;
+        a {
+            text-decoration: none;
+            color: $primary;
+        }
+        a:hover {
+            color: $secondary;
+        }
+    }
+    div {
+        display: inline;
+        float: right;
+        margin-left: 10%;
+        width: 60%;
+        p {
+            display: inline;
+            padding-left: 15%;
+        }
+    }
 }

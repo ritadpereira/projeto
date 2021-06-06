@@ -7,56 +7,56 @@
 }
 
 @mixin heading1 {
-    @include font;
+    @include font();
     font-size: 92px;
     line-height: auto;
     font-weight: 700;
 }
 
 @mixin heading2 {
-    @include font;
+    @include font();
     font-size: 48px;
     line-height: auto;
     font-weight: 700;
 }
 
 @mixin heading3 {
-    @include font;
+    @include font();
     font-size: 36px;
     line-height: auto;
     font-weight: 700;
 }
 
 @mixin heading4 {
-    @include font;
+    @include font();
     font-size: 24px;
     line-height: auto;
     font-weight: 700;
 }
 
 @mixin p-medium {
-    @include font;
+    @include font();
     font-size: 24px;
     line-height: auto;
     font-weight: 500;
 }
 
 @mixin p-caption-regular {
-    @include font;
+    @include font();
     font-size: 24px;
     line-height: auto;
     font-weight: 400;
 }
 
 @mixin p-smoll-bold {
-    @include font;
+    @include font();
     font-size: 16px;
     line-height: auto;
     font-weight: 700;
 }
 
 @mixin p-smoll-medium {
-    @include font;
+    @include font();
     font-size: 16px;
     line-height: auto;
     font-weight: 500;

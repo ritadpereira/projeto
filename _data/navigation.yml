@@ -2,13 +2,13 @@ docs_list_title: Navigation
 docs:
 
 - title: Home
-  url: index.html
+  url: home
 
 - title: Work
-  url: work.html
+  url: work
 
 - title: About
-  url: about.html
+  url: about
 
 - title: Contacts
-  url:  contacts.html
+  url: mycontacts
