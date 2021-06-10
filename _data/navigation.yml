@@ -2,7 +2,7 @@ docs_list_title: Navigation
 docs:
 
 - title: Home
-  url: home
+  url: index
 
 - title: Work
   url: work
@@ -11,4 +11,4 @@ docs:
   url: about
 
 - title: Contacts
-  url: mycontacts
+  url: contact

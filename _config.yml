@@ -55,7 +55,7 @@ plugins:
 #   - vendor/ruby/
 
 collections:
-  contacts:
+  mycontacts:
     output: true
   selectedwork:
     output: true

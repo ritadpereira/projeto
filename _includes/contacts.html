@@ -1,5 +1,5 @@
 <ul>
-   {% for contact in site.contacts %}
+   {% for contact in site.mycontacts %}
       {% if contact.link-title == "E-mail" %}
       <li>
          <a href="mailto: {{ contact.link }}" target="_blank" title="{{ contact.link-title }}">

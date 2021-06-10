@@ -1,5 +1,5 @@
 ---
-layout: mycontacts
+layout: contacts
 ---
 
 <h1>Contacts</h1>
@@ -9,7 +9,7 @@ layout: mycontacts
 </h2>
 
 <ul>
-   {% for contact in site.contacts %}
+   {% for contact in site.mycontacts %}
       <li>
         <a href="{{ contact.link }}" target="_blank" title="{{ contact.link-title }}">
         {{ contact.link-title }}
