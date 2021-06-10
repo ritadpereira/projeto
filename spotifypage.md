@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Spotify - New Social features
+title: Spotify - Social features
 category: UX & UI Design
 ---
 
@@ -10,42 +10,42 @@ category: UX & UI Design
 
 <p>The process of developing this project was the following:</p>
 
-<div>
-    <strong>Research & Analysis</strong>
-    <ul>
-        <li>Benchmark</li>
-        <li>Spotify Analysis</li>
-        <li>Social listening</li>
-        <li>Surveys & interviews</li>
-        <li>SWOT Analysis</li>
-    </ul>
-</div>
+<section class="grid">
+    <div class="grid-1">
+        <strong>Research & Analysis</strong>
+        <ul>
+            <li>Benchmark</li>
+            <li>Spotify Analysis</li>
+            <li>Social listening</li>
+            <li>Surveys & interviews</li>
+            <li>SWOT Analysis</li>
+        </ul>
+    </div>
+    <div class="grid-2">
+        <strong>Ideation</strong>
+        <ul>
+            <li>How Might We</li>
+            <li>Personas</li>
+            <li>Customer Journey Map</li>
+            <li>Site map</li>
+        </ul>
+    </div>
+    <div class="grid-3">
+        <strong>Prototyping</strong>
+        <ul>
+            <li>Sketches</li>
+            <li>Wireframes</li>
+            <li>Prototype</li>
+            <li>Usability test</li>
+        </ul>
+    </div>
+</section>
 
-<div>
-    <strong>Ideation</strong>
-    <ul>
-        <li>How Might We</li>
-        <li>Personas</li>
-        <li>Customer Journey Map</li>
-        <li>Site map</li>
-    </ul>
-</div>
-
-<div>
-    <strong>Prototyping</strong>
-    <ul>
-        <li>Sketches</li>
-        <li>Wireframes</li>
-        <li>Prototype</li>
-        <li>Usability test</li>
-    </ul>
-</div>
-
-<p>Learn more on my <a href="https://www.behance.net/gallery/111862181/New-social-features-on-Spotify-Concept" target="_blank" title="My project on behance">behance</a></p>
+<p>Learn more on my <strong><a href="https://www.behance.net/gallery/111862181/New-social-features-on-Spotify-Concept" target="_blank" title="My project on behance">behance</a></strong></p>
 
 <p>And the results:</p>
 
-<article>
+<article class="spotify">
     <h2>Send songs to friends</h2>
     <figure>
         <img src="assets/img/sendsongs.png" alt="Send songs to friends on Spotify">
@@ -56,7 +56,7 @@ category: UX & UI Design
     </figure>
 </article>
 
-<article>
+<article class="spotify">
     <h2>Two new playlists</h2>
     <figure>
         <img src="assets/img/newplaylists.png" alt="Two new automatic playlists">
@@ -67,7 +67,7 @@ category: UX & UI Design
     </figure>
 </article>
 
-<article>
+<article class="spotify">
     <h2>Listened by</h2>
     <figure>
         <img src="assets/img/listenedby.png" alt="Listened by">
@@ -78,7 +78,7 @@ category: UX & UI Design
     </figure>
 </article>
 
-<article>
+<article class="spotify">
     <h2>Favorite Artists</h2>
     <figure>
         <img src="assets/img/favorites.png" alt="Favorite Artists">
@@ -89,7 +89,7 @@ category: UX & UI Design
     </figure>
 </article>
 
-<article>
+<article class="spotify">
     <h2>Followers</h2>
     <figure>
         <img src="assets/img/followers.png" alt="Followers">
@@ -100,7 +100,7 @@ category: UX & UI Design
     </figure>
 </article>
 
-<article>
+<article class="spotify">
     <h2>Friend Activity</h2>
     <figure>
         <img src="assets/img/friends.png" alt="Friend Activity on mobile">
@@ -111,7 +111,7 @@ category: UX & UI Design
     </figure>
 </article>
 
-<article>
+<article class="spotify">
     <h2>Privacy Settings</h2>
     <figure>
         <img src="assets/img/privacy.png" alt="Privacy Settings">

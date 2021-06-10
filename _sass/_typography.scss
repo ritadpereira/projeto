@@ -61,3 +61,17 @@
     line-height: auto;
     font-weight: 500;
 }
+
+@mixin detail-bold {
+    @include font();
+    font-size: 14px;
+    line-height: auto;
+    font-weight: 700;
+}
+
+@mixin detail-regular {
+    @include font();
+    font-size: 14px;
+    line-height: auto;
+    font-weight: 400;
+}

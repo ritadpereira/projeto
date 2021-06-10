@@ -30,7 +30,7 @@ body {
                 margin-left: 35%;
             }
         }
-        hr {
+        hr { //divisória para a página Work Selected
             margin-left: 8%;
             width: 84%;
             border-color: $primary;
@@ -49,7 +49,7 @@ body {
         ul {
             padding: 0;
         }
-        .worklist {
+        .worklist { //classe para os grupos de projetos em Selected Work
             @include p-medium();
             list-style-type: none;
             text-decoration: none;
@@ -61,7 +61,7 @@ body {
                 margin-bottom: 10%;
             }
         }
-        p {
+        p.source { //source: my mom na homepage
             @include p-smoll-bold();
             margin-top: 1rem;
             margin-right: 1rem;
@@ -72,13 +72,13 @@ body {
                 margin-right: 10%;
             }
         }
-        .divider {
+        .divider { //espaço entre categorias de projetos
             margin-top: 3rem;
             @media #{ $fbg-desktop} {
                 margin-top: 12rem;
             }
         }
-        figure img {
+        figure img { //imagem homepage
             object-fit: cover;
             margin-top: 2rem;
             width: 180px;
@@ -90,7 +90,7 @@ body {
                 margin-left: 10%;
             }
         }
-        ul figure {
+        ul figure { //imagens Selected Work
             margin: 0;
             margin-top: 1rem;
             img {
@@ -109,10 +109,144 @@ body {
                 }
             }
         }
-        .empty {
+        .empty { //espaço para Contacts
             height: 40vh;
             @media #{ $fbg-desktop} {
                 height: 70vh;
+            }
+        }
+        .projecttitle { //Títulos de página de projetos
+            margin-right: 1.5rem;
+            @media #{ $fbg-desktop} {
+                margin-left: 25%;
+            }
+        }
+        h2.catg { //Subtítulos de página de projetos
+            @media #{ $fbg-desktop} {
+                margin-left: 25%;
+            }
+        }
+        p {
+            margin: 1.5rem;
+            margin-top: 1rem;
+            @media #{ $fbg-desktop} {
+                margin-left: 25%;
+                margin-right: 10%;
+            }
+        }
+        section ul {
+            list-style: none;
+        }
+        .grid-1 { //Grelha para fases de Projeto
+            grid-area: research;
+        }
+        .grid-2 {
+            grid-area: ideation;
+        }
+        .grid-3 {
+            grid-area: prototype;
+        }
+        .grid {
+            margin: 1.5rem;
+            @media #{ $fbg-desktop} {
+                display: grid;
+                margin-left: 25%;
+                grid-template-areas:
+                    "research ideation prototype"
+            }
+        }
+        article h2 { // sub sub títulos projetos
+            @media #{ $fbg-desktop} {
+                margin-left: 25%;
+            }
+        }
+        .spotify figure { //imagens do projeto do Spotify
+            width: 90%;
+            margin-left: 1.5rem;
+            img {
+                width: 92%;
+                height: 160px;
+                margin: 0;
+                margin-bottom: 1rem;
+            }
+            @media #{ $fbg-desktop} {
+                width: 50%;
+                margin-left: 25%;
+                img {
+                    height: 400px;
+                }                
+            }
+        }
+        article figure {
+            width: 90%;
+            margin-left: 1.5rem;
+            img {
+                width: 92%;
+                height: 300px;
+                margin: 0;
+                margin-bottom: 1rem;
+            }
+                @media #{ $fbg-desktop} {
+                width: 50%;
+                margin-left: 25%;
+                img {
+                    height: 700px;
+                }                
+            }
+        }
+        figcaption { //captions de imagens de projetos
+            margin-bottom: 3rem;
+            strong {
+                @include detail-bold();
+                line-height: 2rem;
+            }
+            p {
+                @include detail-regular();
+            }
+        }
+        .illustrations { //imagens dos projetos de Digital Illustration
+            width: 90%;
+            margin-left: 1.5rem;
+            img {
+                width: 95%;
+                height: 400px;
+                margin: 0;
+            }
+                @media #{ $fbg-desktop} {
+                width: 60%;
+                margin-left: 25%;
+                img {
+                    height: 1000px;
+                }                
+            }
+        }
+        h3 {
+            @include p-smoll-medium();
+            margin-left: 1.5rem;
+        }
+        .abouttext {
+            @media #{ $fbg-desktop} {
+                margin-left: 35%;
+            }
+        }
+        li p {
+            margin: 0;
+            margin-left: 1.5rem;
+        }
+        .details {
+            margin-left: 1.5rem;
+            li {
+                list-style: none;
+                h3 {
+                    margin: 0;
+                    margin-top: 1rem;
+                }
+                p {
+                    margin: 0;
+                }
+            }
+            @media #{ $fbg-desktop} {
+                margin-left: 35%;
             }
         }
     }

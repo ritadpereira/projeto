@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Rethinking FBAUL's website
+title: FBAUL's website
 category: UX & UI Design
 ---
 
@@ -10,37 +10,37 @@ category: UX & UI Design
 
 <p>The process of developing this project was the following:</p>
 
-<div>
-    <strong>Research & Analysis</strong>
-    <ul>
-        <li>Benchmark</li>
-        <li>Surveys & interviews</li>
-        <li>Insights</li>
-        <li>How Might We</li>
-    </ul>
-</div>
+<section class="grid">
+    <div class="grid-1">
+        <strong>Research & Analysis</strong>
+        <ul>
+            <li>Benchmark</li>
+            <li>Surveys & interviews</li>
+            <li>Insights</li>
+            <li>How Might We</li>
+        </ul>
+    </div>
+    <div class="grid-2">
+        <strong>Ideation</strong>
+        <ul>
+            <li>Personas</li>
+            <li>Customer Journey Map</li>
+            <li>Site map</li>
+            <li>Ideation</li>
+        </ul>
+    </div>
+    <div class="grid-3">
+        <strong>Prototyping</strong>
+        <ul>
+            <li>Sketches</li>
+            <li>Wireframes</li>
+            <li>Prototype</li>
+            <li>Usability test</li>
+        </ul>
+    </div>
+</section>
 
-<div>
-    <strong>Ideation</strong>
-    <ul>
-        <li>Personas</li>
-        <li>Customer Journey Map</li>
-        <li>Site map</li>
-        <li>Ideation</li>
-    </ul>
-</div>
-
-<div>
-    <strong>Prototyping</strong>
-    <ul>
-        <li>Sketches</li>
-        <li>Wireframes</li>
-        <li>Prototype</li>
-        <li>Usability test</li>
-    </ul>
-</div>
-
-<p>Learn more on my <a href="https://www.behance.net/gallery/115457783/FBAULs-website-for-International-Students" target="_blank" title="My project on behance">behance</a></p>
+<p>Learn more on my <strong><a href="https://www.behance.net/gallery/115457783/FBAULs-website-for-International-Students" target="_blank" title="My project on behance">behance</a></strong></p>
 
 <p>And the results:</p>
 
