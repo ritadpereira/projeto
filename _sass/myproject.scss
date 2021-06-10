@@ -2,10 +2,6 @@
 @import "typography";
 $fbg-mobile: "( min-width: 320px )";
 $fbg-desktop: "( min-width: 1000px )";
-// BRO DONT FORGET TO CHANGE THIS TO MOBILE
-// look at mobile, its broken
-// mete os tamanhos de mobile e depois adicionar o que esta feito dentro de queries de desktop
-// LOVE YOU
 
 body {
     @include font();
@@ -14,21 +10,110 @@ body {
     padding: 0;
 
     main {
-        @include heading3();
         h1 {
-            margin-left: 40%;
+            @include heading3();
+            position: relative;
+            top: -1rem;
+            margin-left: 1.5rem;
+            @media #{ $fbg-desktop} {
+                @include heading1();
+                margin-left: 35%;
+            }
+        }
+        h2 {
+            @include p-smoll-bold();
+            margin-left: 1.5rem;
             margin-top: 0;
+            @media #{ $fbg-desktop} {
+                @include heading4();
+                margin-top: 2rem;
+                margin-left: 35%;
+            }
+        }
+        hr {
+            margin-left: 8%;
+            width: 84%;
+            border-color: $primary;
+            @media #{ $fbg-desktop} {
+                margin-left: 35%;
+                width: 62%;
+            }
+        }
+        a {
+            text-decoration: none;
+            color: $primary;
+        }
+        a:hover {
+            color: $accent;
+        }
+        ul {
+            padding: 0;
+        }
+        .worklist {
+            @include p-medium();
+            list-style-type: none;
+            text-decoration: none;
+            margin-left: 8%;
+            @media #{ $fbg-desktop } {
+                @include heading2();
+                margin-top: 1.5rem;
+                margin-left: 35%;
+                margin-bottom: 10%;
+            }
         }
         p {
-            @include p-medium();
+            @include p-smoll-bold();
+            margin-top: 1rem;
+            margin-right: 1rem;
             float: right;
-            margin-right: 10%;
+            @media #{ $fbg-desktop} {
+                @include p-medium();
+                margin-top: 2rem;
+                margin-right: 10%;
+            }
+        }
+        .divider {
+            margin-top: 3rem;
+            @media #{ $fbg-desktop} {
+                margin-top: 12rem;
+            }
         }
         figure img {
             object-fit: cover;
-            width: 440px;
-            height: 500px;
-            margin-left: 10%;
+            margin-top: 2rem;
+            width: 180px;
+            height: 200px;
+            margin-left: 35%;
+            @media #{ $fbg-desktop} {
+                width: 440px;
+                height: 500px;
+                margin-left: 10%;
+            }
+        }
+        ul figure {
+            margin: 0;
+            margin-top: 1rem;
+            img {
+                width: 92%;
+                height: 160px;
+                margin: 0;
+            }
+            @media #{ $fbg-desktop} {
+                display: inline;
+                margin-top: 0;
+                img {
+                    float: right;
+                    width: 35%;
+                    height: 180px;
+                    margin-right: 5%;
+                }
+            }
+        }
+        .empty {
+            height: 40vh;
+            @media #{ $fbg-desktop} {
+                height: 70vh;
+            }
         }
     }
 }
@@ -46,59 +131,87 @@ header {
     a:hover {
         color: $tertiary;
     }
+    .name:hover {
+        color: $secondary;
+    }
     div {
         display: flex;
         justify-content: space-between;
         width: 100%;
         .name {
-            margin-top: 1.5rem;
+            margin-top: 1rem;
+            @media #{ $fbg-desktop } {
+                margin-top: 1.5rem;
+            }
         }
         figure,
         a {
-            margin: 0.5rem 0 0 0;
+            margin: 0.2rem 0 0 0;
+            @media #{ $fbg-desktop } {
+                margin: 0.5rem 0 0 0;
+            }
         }
     }
     nav {
-        position: fixed;
-        top: 30rem;
+        display: block;
+        top: 4rem;
+        left: 1rem;
+        line-height: 1.3rem;
         ul {
             list-style: none;
             padding-left: 0px;
+            left: 1.5rem;
             li.active a {
                 color: $active;
                 cursor: default;
                 pointer-events: none;
+            }
+            @media #{ $fbg-desktop } {
+                position: fixed;
+                top: 29.5rem;
+                line-height: 1.7rem;
             }
         }
     }
 }
 
 footer {
-    padding-left: 24px;
-    @include p-medium();
-    color: $primary;
+    padding-left: 1.5rem;
+    @include p-smoll-medium();
+    margin-bottom: 30px;
     ul {
-        float: left;
         padding-left: 0px;
         list-style: none;
-        margin-bottom: 1%;
         margin-top: 0;
+        margin-bottom: 5px;
         a {
             text-decoration: none;
             color: $primary;
         }
-        a:hover {
-            color: $secondary;
-        }
     }
-    div {
-        display: inline;
-        float: right;
-        margin-left: 10%;
-        width: 60%;
-        p {
+    p {
+        margin: 8px;
+        margin-left: 0px;
+    }
+    @media #{ $fbg-desktop } {
+        padding-left: 24px;
+        @include p-medium();
+        ul {
+            float: left;
+            margin-bottom: 1%;
+            a:hover {
+                color: $secondary;
+            }
+        }
+        div {
             display: inline;
-            padding-left: 15%;
+            float: right;
+            margin-left: 10%;
+            width: 60%;
+            p {
+                display: inline;
+                padding-left: 15%;
+            }
         }
     }
 }

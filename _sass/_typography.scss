@@ -8,7 +8,7 @@
 
 @mixin heading1 {
     @include font();
-    font-size: 92px;
+    font-size: 80px;
     line-height: auto;
     font-weight: 700;
 }
@@ -22,7 +22,7 @@
 
 @mixin heading3 {
     @include font();
-    font-size: 36px;
+    font-size: 32px;
     line-height: auto;
     font-weight: 700;
 }

@@ -11,7 +11,7 @@ title: Selected Work
     {% for project in site.selectedwork reversed %}
         {% if project.category == "UX & UI Design" %}
         <hr>
-        <li>
+        <li class="worklist">
             <a href= "{{ project.link }}" target="_blank" title="{{ project.title }}"> 
             {{ project.title }}
             <figure>
@@ -23,13 +23,13 @@ title: Selected Work
     {% endfor %}
 </ul>
 
-<h2>Digital Illustration</h2>
+<h2 class="divider">Digital Illustration</h2>
 
 <ul>
     {% for project in site.selectedwork %}
         {% if project.category == "Digital Illustration" %}
         <hr>
-        <li>
+        <li class="worklist">
             <a href= "{{ project.link}}" target="_blank" title="{{ project.title }}"> 
             {{ project.title }}
             <figure>

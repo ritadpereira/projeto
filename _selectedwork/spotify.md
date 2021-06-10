@@ -1,5 +1,5 @@
 ---
-title: Spotify - New Social features
+title: Spotify - Social features
 category: UX & UI Design
 link: spotifypage.html
 link-title: Spotify - New Social features
