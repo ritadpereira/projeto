@@ -108,10 +108,10 @@ body {
                     width: 35%;
                     height: 180px;
                     margin-right: 5%;
-                    transition: width 2s; //animação imagens
+                    transition: width 1.5s; //animação imagens
                 }
                 img:hover {
-                    width: 39%;
+                    width: 37%;
                 }
             }
         }
@@ -306,6 +306,14 @@ header {
             @media #{ $fbg-desktop } {
                 margin: 0.5rem 0 0 0;
             }
+        }
+        @keyframes anim { //animação favicon header
+            to  {transform: rotate(360deg);}
+        }
+        .favicon {
+            animation-name: anim;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
         }
     }
     nav {
