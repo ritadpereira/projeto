@@ -59,7 +59,8 @@ body {
                 @include heading2();
                 margin-top: 1.5rem;
                 margin-left: 35%;
-                margin-bottom: 10%;
+                margin-bottom: 3%;
+                display: flex;
             }
         }
         p.source { //source: my mom na homepage
@@ -76,7 +77,7 @@ body {
         .divider { //espaço entre categorias de projetos
             margin-top: 3rem;
             @media #{ $fbg-desktop} {
-                margin-top: 12rem;
+                margin-top: 5rem;
             }
         }
         figure img { //imagem homepage
@@ -115,7 +116,7 @@ body {
             }
         }
         .empty { //espaço para Contacts
-            height: 40vh;
+            height: 80vh;
             @media #{ $fbg-desktop} {
                 height: 74vh;
             }
