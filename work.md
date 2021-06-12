@@ -15,7 +15,7 @@ title: Selected Work
             <a href= "{{ project.link }}" title="{{ project.title }}"> 
             {{ project.title }}
             <figure>
-                <img src="{{ project.image-src }}" alt="{{ project.image-alt }}">
+                <img src="{{ project.image-src }}" alt="{{ project.image-alt }}" title="{{ project.image-alt }}">
             </figure>
             </a>
         </li>
