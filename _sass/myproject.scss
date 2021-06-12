@@ -5,7 +5,8 @@ $fbg-desktop: "( min-width: 1000px )";
 
 body {
     @include font();
-    background-color: $background;
+    background-image: linear-gradient(to bottom right, $background, white);
+    background-color: white;
     margin: 0;
     padding: 0;
 
@@ -106,13 +107,17 @@ body {
                     width: 35%;
                     height: 180px;
                     margin-right: 5%;
+                    transition: width 2s; //animação imagens
+                }
+                img:hover {
+                    width: 39%;
                 }
             }
         }
         .empty { //espaço para Contacts
             height: 40vh;
             @media #{ $fbg-desktop} {
-                height: 70vh;
+                height: 74vh;
             }
         }
         .projecttitle { //Títulos de página de projetos
@@ -249,6 +254,21 @@ body {
                 margin-left: 35%;
             }
         }
+        //ux ui designer
+        .yellow:hover {
+            color: $accent;
+        }
+        //fotografia homepage
+        .me {
+            @media #{ $fbg-desktop} {
+                transition: width 2s;
+            }
+        }
+        .me:hover {
+            @media #{ $fbg-desktop} {
+                width: 600px;
+            }
+        }
     }
 }
 
@@ -256,6 +276,7 @@ header {
     padding: 24px 24px;
     @include p-smoll-medium();
     @media #{ $fbg-desktop } {
+        padding: 24px 32px;
         @include p-medium();
     }
     a {

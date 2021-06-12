@@ -12,7 +12,7 @@ title: Selected Work
         {% if project.category == "UX & UI Design" %}
         <hr>
         <li class="worklist">
-            <a href= "{{ project.link }}" target="_blank" title="{{ project.title }}"> 
+            <a href= "{{ project.link }}" title="{{ project.title }}"> 
             {{ project.title }}
             <figure>
                 <img src="{{ project.image-src }}" alt="{{ project.image-alt }}">
@@ -30,7 +30,7 @@ title: Selected Work
         {% if project.category == "Digital Illustration" %}
         <hr>
         <li class="worklist">
-            <a href= "{{ project.link}}" target="_blank" title="{{ project.title }}"> 
+            <a href= "{{ project.link}}" title="{{ project.title }}"> 
             {{ project.title }}
             <figure>
                 <img src="{{ project.image-src }}" alt="{{ project.image-alt }}">
